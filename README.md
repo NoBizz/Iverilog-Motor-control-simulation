@@ -18,18 +18,25 @@
 The focus is mainly on finetuning and optimization of on board sensores and motor controllers, seeing how much room is there to work with.
 </p>
 
+<p>Most utilized aspect of embeded system programming and circuit design were</p>
+<ul>
+  <li>System verilog</li>
+  <li>Digital simulations</li>
+  <li>Anteres circuit design software</li>
+</ul>
+
 <p align = "center"><img src="https://github.com/NoBizz/Iverilog-Motor-control-simulation/blob/main/img/IMG_20240119_191723.jpg?raw=true" width="200" height="200"/><img></p>
 
 
 <p align = "left">
-The first aspect to look at are the sensores, more specificaly those on the head of the printer and that of the extruder further on the back,
-  reading this information will help with auxiliary systems and their optimization as their usage takes a long time, the head sensor is used for bed leveling quite boring but an extreamly important aspect, the aim is to speed this process up and get more accurate readings.
+The first aspect to look at are the sensores,
+  reading this information will help with auxiliary systems and their optimization as their usage takes a long time.
 </p>
 
 <p align = "center"><img src="https://github.com/NoBizz/Iverilog-Motor-control-simulation/blob/main/img/IMG_20240119_191807.jpg?raw=true" width="200" height="200"/><img></p>
 
 <p align = "left">
-Next motor control and optimization, such a simple piece of machinery hides many tricks, I primarly use "half stepping" in this segment as it increses both accuracy of the motors and their speed, this is by far the most impactfull aspect as it directly contributes to the quality of prints.
+motor control and optimization, main use of "half stepping" in this segment as it increses both accuracy of the motors and their speed, this is by far the most impactfull aspect as it directly contributes to the quality of prints.
 </p>
 
 <h2 align = "left">Conclusion</h2>
